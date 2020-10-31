@@ -7,8 +7,17 @@
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <h1>Etch-A-Sketch</h1>
     <div id="container-div"></div>
-    <button id="reset-button">Reset</button>
+    <div id="options-div"></div>
+      <button id="reset-button">Reset</button>
+      <label>Color: 
+        <select name="colors" id="colors-options">
+          <option value="black">Black</option>
+          <option value="random">Random</option>
+        </select>
+      </label>
+    </div>
     <script src="./index.js"></script>
   </body>
 </html>

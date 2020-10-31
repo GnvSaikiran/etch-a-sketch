@@ -5,3 +5,32 @@
   max-width: 650px;
   max-height: 600px;
 }
+
+body {
+  text-align: center;
+}
+
+#options-div {
+  margin-top: 15px;
+}
+
+button {
+  height: 30px;
+  width: 70px;
+  margin-right: 5px;
+}
+
+button:hover {
+  transform: scale(1.2);
+  background-color: white;
+  border: 1px solid teal;
+  color: teal;
+}
+
+label {
+  margin-left: 5px;
+}
+
+select {
+  padding: 5px;
+}
